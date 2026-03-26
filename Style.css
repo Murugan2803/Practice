@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding: 10px;
+    text-align: center;
+}
+p, a{
+    font-size: medium;
+    font-family: sans-serif;
+    padding: 10px;
+}
+p{
+    background: beige;
+}
+marquee{
+    padding: 10px;
+    text-align: center;
+}
+img{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+h4{
+    margin: 10px;
+}
+ol,ul,dl{
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+table,th,td{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr{
+    text-align: center;
+}
+form{
+    width: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px dashed black;
+    background-color: beige;
+}
+.form-row{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.form-row label{
+    width: 100px;
+}
+.form-row input{
+    flex: 1;
+}
