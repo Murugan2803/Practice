@@ -61,3 +61,47 @@ form{
 .form-row input{
     flex: 1;
 }
+.outer-box{
+    margin: 10px;
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    /* position: relative; */
+}
+.one,.two,.three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+   
+}
+.one
+{
+    border:solid;
+    background-color: green;
+}
+.two{
+    border: solid;
+    background-color: yellow;
+    position: relative;
+    left: 50px;
+    top: 60px;
+    z-index: 1;
+}
+.three{
+    position: relative;
+    z-index: 2;
+    border: solid;
+    background-color: red;
+}
+button{
+    color: black;
+    background-color: bisque;
+    margin: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    color: white;
+    background-color: indigo;
+    border: 1px solid;
+    border-radius: 10px;
+}
